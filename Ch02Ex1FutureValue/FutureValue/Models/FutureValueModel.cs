@@ -2,9 +2,13 @@
 {
     public class FutureValueModel
     {
+        
         public decimal MontlyInvestment { get; set; }
+
         public decimal YearlyInterestRate { get; set; }
+
         public int Years { get; set; }
+
         public decimal CalculateFutureValue()
         {
             int months = Years * 12;
